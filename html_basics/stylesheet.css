@@ -1,4 +1,4 @@
-div {
+/* div {
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
@@ -29,24 +29,24 @@ p {
 }
 
 /* unvisited link */
-a:link {
+/* a:link {
     color: green;
-}
+} */
 
 /* visited link */
-a:visited {
+/* a:visited {
     color: lightseagreen;
-}
+} */
 
 /* mouse over link */
-a:hover {
+/* a:hover {
     color: #0000ff;
-}
+} */
 
 /* selected link */
-a:active {
+/* a:active {
     color: yellow;
-}
+} */
 
 /* .big-text {
     font-weight: bold;
@@ -55,19 +55,19 @@ a:active {
     padding: 10px;
     /* font-size: 72px; */
 /* } */
-
+/* 
 div h2 {
     color: darkgoldenrod;
 }
 
 ul, ol, p {
     border-style: dotted;
-}
+} */
 
-body {
+/* body {
     background-color: #00ff00;
-}
-
+} */
+/* 
 #p1 {
     background-color: #f00;
 }
@@ -138,21 +138,53 @@ p {
       div.static {
         position: static;
         border: 3px solid #73AD21;
-      }
+      } */
 
-      div.fixed {
+      /* div.fixed {
         position: fixed;
         bottom: 0;
         right: 0;
         width: 300px;
         border: 3px solid #73AD21;
-      }
+      } */
 
-      div.sticky {
-        position: -webkit-sticky; /* Needed for Safari */
+      /* div.sticky {
+        position: -webkit-sticky;  Needed for Safari 
         position: sticky;
         top: 0;
         background-color: green;
         border: 2px solid #4CAF50;
-      }
-    
+      } 
+      */
+
+/* p {
+  color:red;
+} */
+
+/* .ex1 {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+} */
+
+img.block-image {
+  display: block;
+}
+
+li.inline-list {
+  display: inline;
+}
+
+div.hidden-div{
+  display: none;
+}
+
+img.invisible-image{
+	visibility: hidden;
+}
