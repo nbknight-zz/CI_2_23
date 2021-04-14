@@ -1,0 +1,14 @@
+h1 {
+  color: blue;
+  font-family: sans-serif;  
+}
+canvas {
+  height: 200px;
+/*   width: 400px; */
+  border: solid 2px lightblue;
+}
+
+p {
+  font-weight: bolder;
+  font-family: sans-serif;
+}

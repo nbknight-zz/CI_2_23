@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mini Challenge 1</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<h1 id="title"> Fun with Filters</h1>
+<canvas id="can1"></canvas>
+<h3>Select Image</h3>
+<!--Input to upload the file  -->
+<input type="file" multiple="false" accepts="file/*" id="fileInput" onchange="uploadImage()">
+<!-- Directions to choose a filter  -->
+<h3>Select the type of filter you would like</h3>
+<!-- 3 buttons as placeholders  -->
+<input type="button" value="Filter 1" class="filter" onclick="doGray()"/>
+<input type="button" value="Filter 2" class="filter"/>
+<input type="button" value="Filter 3" class="filter"/>
+<br>
+<input type="button" value="Start Over" id="startOver" onclick="clearCanvas()">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

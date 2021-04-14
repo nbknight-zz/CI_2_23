@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>GrayScale</title>
+<script src="script.js"></script>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+</head>
+
+<body>
+
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <h1 id="title"> Fun with Filters</h1>
+    <canvas id="can1" height="400px" width="400px"></canvas>
+    <h3>Select Image</h3>
+    <!--Input to upload the file  -->
+    <input type="file" multiple="false" accepts="file/*" id="fileInput" onchange="uploadImage()">
+    <!-- Directions to choose a filter  -->
+    <h3>Select the type of filter you would like</h3>
+    <!-- 3 buttons as placeholders  -->
+    <input type="button" value="Grayscale" class="filter" onclick="doGray()" />
+    <input type="button" value="Redify" class="filter" onclick="doRed()" />
+    <input type="button" value="Invert" class="filter" onclick="invert()" />
+    <br>
+    <input type="button" value="Start Over" id="startOver" onclick="clearCanvas()">
+
+</body>

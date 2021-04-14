@@ -1,0 +1,14 @@
+canvas {
+  border: solid 2px black;
+  height: 300px;
+}
+#fileInput {
+  font-weight: bold;
+}
+#startOver {
+  margin-top: 10px;
+}
+
+.filter {
+  margin: 10px 5px 10px;
+}
